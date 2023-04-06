@@ -1,0 +1,118 @@
+p{
+  font-size: larger;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #408E91;
+  color:aliceblue;
+}
+
+.bgimage {
+  height:100vh;
+  background: url(images/mypic3.jpg);
+  background-size: cover;
+  position:relative;
+  
+}
+
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* about section image css */
+.imageAboutPage {
+  width: 100%;
+  border-radius: 100%;
+  
+}
+.about-text{
+  padding-top: 50px;
+
+}
+/* interest section */
+.in-image{
+  height: 30px;
+  width:30px;
+}
+.col{
+  text-align: center;
+}
+/* interest section css */
+.servicesText.card {
+  height: 100px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+
+/* project section */
+.cardImg{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* display background color black on navbar scroll */
+
+/* spacing on all sections */
+#about, #interests, #projects, #contact {
+  
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  
+}
+#contact {
+  padding-bottom: 4rem;
+}
+
+/* background color of each section */
+#about{
+  background-color: #408E91;
+  color:aliceblue;
+
+}
+#interests{
+  background-color: #D8D8D8;
+}
+#projects{
+  background-color: #408E91;
+  color:aliceblue;
+}
+#contact{
+  background-color: #D8D8D8;
+}
+
+/* Contact section */
+.c-icon{
+  
+  font-size: 25px;
+  width: 40px;
+}
+.contact-icon{
+  padding-top:15px;
+  text-align: center;
+}
